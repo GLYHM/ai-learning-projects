@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment (don't commit API keys)
+.env
+.env.local
+
+# ChromaDB data (too large, user builds locally)
+chroma_db/
+
+# Obsidian
+.obsidian/
