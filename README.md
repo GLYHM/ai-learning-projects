@@ -185,11 +185,22 @@ set DEEPSEEK_API_KEY=你的DeepSeek密钥
 ## 后续计划
 
 - [x] 公司 EHS 安防流程助手（离线版已部署）
-- [ ] LangChain：RAG + Agent + Chain（80% JD 必问）
+- [x] LangChain：RAG + Agent + Chain（3 个示例脚本）
 - [ ] FastAPI + Docker：把项目部署成 API 服务
 - [ ] 博客发布到知乎/掘金
 - [ ] 刷 BOSS 直聘/猎聘，投递面试
 
 ---
 
-*最后更新：2026-06-28*
+## LangChain 学习示例
+
+| 文件 | 内容 |
+|------|------|
+| `11-langchain-rag.py` | RAG 管道：加载 → 切分 → 向量化 → 检索 → 回答 |
+| `12-langchain-agent.py` | Agent 工具调用：`@tool` 装饰器 + `create_agent` |
+| `13-langchain-chain.py` | Chain 多步流水线：解题→验证、提取→翻译→格式化 |
+| `lc_chroma_db/` | ChromaDB 向量库（脚本自动生成） |
+
+---
+
+*最后更新：2026-07-01*
